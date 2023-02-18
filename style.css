@@ -601,7 +601,8 @@ body{
 .itergoLogo{
     /*border: solid rebeccapurple;*/
     float: right;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
+    top: 20%;
     position: absolute;
     left: 800px;
 }
@@ -614,7 +615,7 @@ body{
     font-weight: 500;
     font-size: 18px;
     line-height: 169.2%;
-    top: 120px;
+    top: 15%;
     right: 125px;
     position: absolute;
 }
@@ -622,7 +623,7 @@ body{
 .itergoLearnMore{
     position: absolute;
     left: 810px;
-    top: 250px;
+    top: 35%;
     float: right;
     width: 130px;
     border: none;
@@ -653,7 +654,8 @@ body{
 .letsroleLogo{
     /*border: solid rebeccapurple;*/
     float: left;
-    margin-top: 280px;
+    /*margin-top: 280px;*/
+    top: 50%;
     position: absolute;
     right: 350px;
 }
@@ -670,7 +672,7 @@ body{
     position: absolute;
     float: right;
     left: 570px;
-    top: 380px;
+    top: 52%;
 }
 
 .letsroleLearnMore{
@@ -687,7 +689,7 @@ body{
     color: white;
     position: absolute;
     left: 400px;
-    top: 530px;
+    top: 70%;
     float: left;
 }
 
@@ -711,7 +713,7 @@ body{
     margin-top: 50px;
     position: absolute;
     left: 800px;
-    top: 580px;
+    top: 78%;
 }
 
 .marianText{
@@ -722,7 +724,7 @@ body{
     font-weight: 500;
     font-size: 18px;
     line-height: 169.2%;
-    top: 645px;
+    top: 87%;
     right: 150px;
     position: absolute;
 }
@@ -730,7 +732,7 @@ body{
 .marianLearnMore{
     position: absolute;
     left: 810px;
-    top: 770px;
+    top: 102.7%;
     float: right;
     width: 130px;
     border: none;
@@ -770,6 +772,113 @@ body{
     color: white;
     background-color: #E3612A;
 }
+
+#overlay_contact{
+    left: 0%;
+    right: 2.78%;
+    top: 15%;
+    bottom: 26.95%;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    padding: 0;
+}
+
+.contactContent{
+    /*border: solid purple;*/
+    width: 720px;
+    height: 100%;
+    background: #eaeaea;
+    display: grid;
+    z-index: 3;
+    margin-left: 33%;
+    margin-right: auto;
+    /*position: absolute;*/
+    left: 33.26%;
+    right: 2.78%;
+    top: 24.22%;
+    bottom: 26.95%;
+   
+}
+
+.contactTextContainer{
+    /*border: solid red;*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 10%;
+}
+
+/*.toolsText{
+    margin-left: 50px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 230.2%;
+   
+}*/
+
+.contactTitle{
+    position: absolute;
+    left: 37.67%;
+    top: 15.96%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 230.19%;
+    text-decoration-line: underline;
+}
+
+.emailText{
+    position: absolute;
+    width: 166px;
+    height: 41px;
+    left: 37.67%;
+    top: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 230.19%;
+}
+
+
+.linkedinText{
+    position: absolute;
+    top: 45%;
+    left: 62.87%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 230.19%;
+}
+
+.linkedinImage{
+    position: absolute;
+    top: 30%;
+    left: 62.97%;
+}
+
+.fbText{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 230.19%;
+    top: 45%;
+    left: 78.67%;
+}
+
+.fbImage{
+    position: absolute;
+    top: 30%;
+    left: 77%;
+}
+
 
 .footerText{
     color: white;
