@@ -96,7 +96,7 @@ body{
     width: 245px;
     position: relative;
     margin-top: 0%;
-    top: -70%;
+    top: -60%;
     left: 0%;
     line-height: 10%;
     padding-left: 24px;
@@ -810,15 +810,6 @@ body{
     top: 10%;
 }
 
-/*.toolsText{
-    margin-left: 50px;
-    padding-top: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    line-height: 230.2%;
-   
-}*/
-
 .contactTitle{
     position: absolute;
     left: 37.67%;
@@ -884,7 +875,7 @@ body{
     color: white;
     /*border: solid red;*/
     width: 31.1%;
-    margin-top: 950px;
+    margin-top: 850px;
 }
 
 button{
